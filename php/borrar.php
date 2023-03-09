@@ -3,7 +3,7 @@ $id = htmlspecialchars($_GET["id"]);
 
 try {
 
-    $conexion = new PDO("mysql:host=50.18.232.33;port=3306;dbname=infrati", "may1", "Ma.12345");
+    $conexion = new PDO("mysql:host=50.18.232.33;port=3306;dbname=infrati", "may2", "Ma.12345");
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 
