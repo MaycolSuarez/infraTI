@@ -1,6 +1,6 @@
 <?php
-
-    $con = mysqli_connect('localhost','root','','infrati')
+    //"mysql:host=50.18.232.33;port=3306;dbname=infrati", "may1", "Ma.12345"
+    $con = mysqli_connect('50.18.232.33',"may1", "Ma.12345",'infrati')
 
 ?>
 <!DOCTYPE html>
